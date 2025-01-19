@@ -1,0 +1,179 @@
+/* Importing fonts start here */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+/* Importing fonts ends here */
+
+/* Color & fonts Variables starts here */
+:root {
+    --soft-blue: #5468E7;
+    --soft-violet: #C897E4;
+    --dark-blue: #232340;
+    --desaturated-blue: #7676B2;
+    --off-white: #F5F5F5;
+    --light-orange: #FFBA79;
+    --font: 'lexend Deca', sans-serif;
+}
+/* Color Variables ends here */
+
+/* General reset starts here */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+html, body {
+    font-family: var(--font), sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 95%;
+    padding: 0 2rem;
+}
+/* General reset ends here */
+
+header {
+    background: url(asset/hero-img.png) no-repeat center center/cover;
+    min-height: 100vh;
+    color: var(--off-white);
+
+    .nav-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-head .logo .t {
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: -0.063rem;
+    }
+
+    .nav-head .logo .o {
+        color: var(--soft-blue);
+        font-size: 3.25rem;
+        font-weight: 600;
+        letter-spacing: -0.065rem;
+    }
+
+    .nav-head ul {
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        gap: 3.5rem;
+    }
+
+    .nav-head ul li {
+        text-shadow: 0px 8px 16px rgba(35, 35, 64, 0.60);
+    }
+
+    .nav-head ul li a {
+        color: inherit;
+        font-size: 1rem;
+        font-weight: 500;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+    }
+
+    .nav-head ul li .btn-nav {
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 0.25rem;
+        background: rgba(84, 104, 231, 0.50);
+        padding: 0.8rem 2.75rem;
+    }
+
+    .hero {
+        color: var(--off-white);
+        max-width: 36rem;
+        padding-top: 15rem;
+        h1 {
+            font-size: 3.125rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        
+        .bottom-txt {
+            font-size: 1.125rem;
+            font-weight: 400;
+            margin-bottom: 3.25rem;
+        }
+
+        .input-container {
+            display: flex;
+            align-items: center;
+            max-width: 36rem;
+        }
+
+        .input-container .email-input {
+            padding: 0.8rem 3rem 0.8rem 1rem;
+            width: 100%;
+            border-radius: 0.25rem;
+            border: 2px solid #D1ECFD;
+        }
+
+        .input-container .arrow-btn {
+            position: relative;
+            top: 0;
+            right: 2.5rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .input-container .btn-hero {
+            background-color: var(--soft-blue);
+            padding: 0.8rem 2.75rem;
+            width: 100%;
+            text-align: center;
+            color: var(--off-white);
+            border-radius: 0.25rem;
+            font-size: 1.125rem;
+            font-weight: 400;
+        }
+    }
+}
+
+/* Header styling ends here */
+
+
+
+
+.service-one .container .left a {
+    display: inline-flex;
+    align-items: center;
+}
+
+span svg {
+    position: relative;
+    top: 0.22rem;
+}
+
