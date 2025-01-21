@@ -61,7 +61,8 @@
         <section class="service-two">
             <div class="container service-two-content">
                 <div class="left">
-                    <div class="cal-container">
+                    
+                    <div class="cal-container inside-cal">
                         <div class="top">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M17.0019 2.98499C16.5119 2.49499 15.7219 2.49499 15.2319 2.98499L6.92189 11.295C6.53189 11.685 6.53189 12.315 6.92189 12.705L15.2319 21.015C15.7219 21.505 16.5119 21.505 17.0019 21.015C17.4919 20.525 17.4919 19.735 17.0019 19.245L9.76189 11.995L17.0119 4.74499C17.4919 4.26499 17.4919 3.46499 17.0019 2.98499Z" fill="#6D7D8B"/>
@@ -71,32 +72,24 @@
                                 <path d="M6.99815 21.015C7.48815 21.505 8.27815 21.505 8.76815 21.015L17.0782 12.705C17.4682 12.315 17.4682 11.685 17.0782 11.295L8.76815 2.98499C8.27815 2.49499 7.48815 2.49499 6.99815 2.98499C6.50815 3.47499 6.50815 4.26499 6.99815 4.75499L14.2382 12.005L6.98815 19.255C6.50815 19.735 6.50815 20.535 6.99815 21.015Z" fill="#6D7D8B"/>
                               </svg>
                         </div>
-
-                        <table class="bottom">
-                            <thead>
-                                <tr>
-                                    <th>S</th>
-                                    <th>M</th>
-                                    <th>T</th>
-                                    <th>W</th>
-                                    <th>T</th>
-                                    <th>F</th>
-                                    <th>S</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>10</td>
-                                    <td>11</td>
-                                    <td>12</td>
-                                    <td>13</td>
-                                    <td>14</td>
-                                    <td>15</td>
-                                    <td>16</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                        <div class="calender-grid">
+                           <div class="weekday">S</div>
+                           <div class="weekday">M</div>
+                           <div class="weekday">T</div>
+                           <div class="weekday">W</div>
+                           <div class="weekday blk-color">T</div>
+                           <div class="weekday">F</div>
+                           <div class="weekday">S</div>
+                
+                           <div class="date">10</div>
+                           <div class="date">11</div>
+                           <div class="date">12</div>
+                           <div class="date">13</div>
+                           <div class="date blk-color">14</div>
+                           <div class="date">15</div>
+                           <div class="date">16</div>
+                        </div>
+                    </div> 
                 </div>
 
                 <div class="right">
@@ -112,25 +105,19 @@
 
         <!--Services three section starts here-->
         <section class="service-three">
-            <div class="container service-three-content">
-                <div class="left">
-                    <h1>Choose how you want to work</h1>
-                    <p>In Team, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live.</p>
-                    <a href="#" class="learn-more">Learn More <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                        <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549V13.7549Z" fill="#5468E7"/>
-                      </svg></span></a>
-                </div>
-
-                <div class="right">
+            <div class="container service-three-content cards-wrapper">
+                <div class="left-wrapper">
                     <div class="inner-right">
                         <div class="top-card">
                             <div class="row-one">
                                 <div class="left">
-                                    <img src="asset/avatar-1.svg" alt="" width="30" height="30">
-                                    <h3>Brian Robinson</h3>
-                                    <p>Android Developer</p>
+                                    <img src="asset/avatar-1.svg" alt="" width="25" height="25">
+                                    <div class="txt">
+                                        <h3>Brian Robinson</h3>
+                                        <p>Android Developer</p>
+                                    </div>
                                 </div>
-
+                
                                 <div class="right">
                                     <form action="#" class="checkbox-container">
                                         <input type="checkbox" id="follow-checkbox" name="follow-checkbox">
@@ -139,32 +126,32 @@
                                     </form>
                                 </div>
                             </div>
-
+                
                             <div class="row-two">
                                 <div class="left">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 17 16" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 17 16" fill="none">
                                         <path d="M14.5446 6.83575L13.9187 9.5054C13.3822 11.811 12.322 12.7435 10.3293 12.5519C10.01 12.5263 9.66511 12.4688 9.29468 12.3794L8.22171 12.124C5.55845 11.4917 4.73456 10.176 5.36046 7.50635L5.98636 4.83032C6.11409 4.28745 6.26738 3.81483 6.45898 3.42524C7.20622 1.87966 8.47718 1.46452 10.6103 1.96907L11.6769 2.21815C14.353 2.84405 15.1705 4.1661 14.5446 6.83575Z" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M10.3293 12.5519C9.93334 12.8202 9.43517 13.0437 8.82843 13.2417L7.81933 13.5738C5.28381 14.3913 3.94898 13.7079 3.12509 11.1724L2.30759 8.64963C1.49009 6.1141 2.16709 4.77289 4.70261 3.95539L5.71172 3.62328C5.97357 3.54025 6.22265 3.47 6.45896 3.42529C6.26736 3.81488 6.11408 4.2875 5.98634 4.83037L5.36045 7.50641C4.73455 10.1761 5.55843 11.4917 8.2217 12.124L9.29466 12.3795C9.66509 12.4689 10.01 12.5264 10.3293 12.5519Z" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M8.78375 5.61572L11.8813 6.40129" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M8.15784 8.0874L10.01 8.56002" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
-                                      </svg>
-                                      <p>28 Task</p>
+                                    </svg>
+                                    <p>28 Task</p>
                                 </div>
-
+                
                                 <div class="right">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 13 12" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 13 12" fill="none">
                                         <path d="M5.51759 1.03739C5.70877 0.448978 6.54123 0.448978 6.73241 1.03739L7.7023 4.02239C7.7878 4.28554 8.03302 4.46371 8.30971 4.46371L11.4483 4.46371C12.067 4.46371 12.3243 5.25541 11.8237 5.61907L9.28454 7.46391C9.06069 7.62654 8.96702 7.91482 9.05252 8.17796L10.0224 11.163C10.2136 11.7514 9.54013 12.2407 9.03959 11.877L6.5004 10.0322C6.27656 9.86955 5.97344 9.86955 5.7496 10.0322L3.2104 11.877C2.70987 12.2407 2.0364 11.7514 2.22759 11.163L3.19748 8.17796C3.28298 7.91482 3.18931 7.62654 2.96546 7.46391L0.426271 5.61907C-0.0742649 5.25541 0.182976 4.46371 0.801673 4.46371L3.94029 4.46371C4.21698 4.46371 4.4622 4.28554 4.5477 4.02239L5.51759 1.03739Z" fill="#FFBA79"/>
-                                      </svg>
-                                      <p>4.8</p>
-                                      <p>(370 Reviews)</p>
+                                    </svg>
+                                    <p>4.8</p>
+                                    <p>(370 Reviews)</p>
                                 </div>
                             </div>
                         </div>
-
+                
                         <div class="bottom-card">
                             <img src="asset/card-mockup-2.png" alt="">
                             <h3>Creating Perfect Website</h3>
-                            <p>Web Developer</p>
+                            <p style="opacity: 0.7;">Web Developer</p>
                             <div class="progress-num-wrapper">
                                 <p>Progress</p>
                                 <p>85%</p>
@@ -174,74 +161,90 @@
                                     <div class="progress-circle"></div>
                                 </div>
                             </div>
-
-                            <div class="time-avater wrapper">
+                
+                            <div class="time-avater-wrapper">
                                 <div class="left">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.72 7H11.78C12.18 7 12.5 7.32 12.5 7.72V12.26L16.37 14.56C16.72 14.76 16.83 15.21 16.62 15.55C16.42 15.89 15.98 15.99 15.64 15.79L11.49 13.3C11.18 13.12 11 12.79 11 12.44V7.72C11 7.32 11.32 7 11.72 7Z" fill="#6D7D8B"/>
-                                      </svg>
-                                      <p>4 Days Left</p>
+                                    </svg>
+                                    <p>4 Days Left</p>
                                 </div>
-
+                
                                 <div class="right">
-                                    <img src="asset/avatar-1.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-2.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-3.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-4.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-5.svg" alt="" width="34" height="34">
+                                    <img src="asset/avatar-1.svg" alt="">
+                                    <img src="asset/avatar-2.svg" alt="">
+                                    <img src="asset/avatar-3.svg" alt="">
+                                    <img src="asset/avatar-4.svg" alt="">
+                                    <img src="asset/avatar-5.svg" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="right-wrapper">
+                    <h1>Choose how you want to work</h1>
+                    <p>In Team, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat, send audio and video clips, or hop on a huddle to talk things out live.</p>
+                    <a href="#" class="learn-more">Learn More <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                        <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549V13.7549Z" fill="#5468E7"/>
+                      </svg></span></a>
+                </div>
+
+                
+
             </div>
+
         </section>        
         <!--Services three section ends here-->
 
         <!--Service four section starts here-->
         <section class="service-four">
-            <div class="container service-four-contents">
-                <div class="left">
+            <div class="container service-four-content cards-wrapper">
+                <div class="left-wrapper">
                     <div class="inner-right">
+                                       
                         <div class="bottom-card">
-                            <img src="asset/card-mockup-1.png" alt="">
+                            <img src="asset/card-mockup-2.png" alt="">
                             <h3>Creating Mobile App Design</h3>
-                            <p>UI/UX Design</p>
+                            <p style="opacity: 0.7;">UI/UX Design</p>
                             <div class="progress-num-wrapper">
                                 <p>Progress</p>
                                 <p>75%</p>
                             </div>
                             <div class="progress-wrapper">
-                                <div class="progress-bar second-bar">
+                                <div class="progress-bar">
                                     <div class="progress-circle"></div>
                                 </div>
                             </div>
-
-                            <div class="time-avater wrapper">
+                
+                            <div class="time-avater-wrapper">
                                 <div class="left">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.72 7H11.78C12.18 7 12.5 7.32 12.5 7.72V12.26L16.37 14.56C16.72 14.76 16.83 15.21 16.62 15.55C16.42 15.89 15.98 15.99 15.64 15.79L11.49 13.3C11.18 13.12 11 12.79 11 12.44V7.72C11 7.32 11.32 7 11.72 7Z" fill="#6D7D8B"/>
-                                      </svg>
-                                      <p>3 Days Left</p>
+                                    </svg>
+                                    <p>3 Days Left</p>
                                 </div>
-
+                
                                 <div class="right">
-                                    <img src="asset/avatar-1.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-2.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-3.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-4.svg" alt="" width="34" height="34">
-                                    <img src="asset/avatar-5.svg" alt="" width="34" height="34">
+                                    <img src="asset/avatar-1.svg" alt="">
+                                    <img src="asset/avatar-2.svg" alt="">
+                                    <img src="asset/avatar-3.svg" alt="">
+                                    <img src="asset/avatar-4.svg" alt="">
+                                    <img src="asset/avatar-5.svg" alt="">
                                 </div>
                             </div>
                         </div>
+
                         <div class="top-card">
                             <div class="row-one">
                                 <div class="left">
-                                    <img src="asset/avatar-2.svg" alt="" width="30" height="30">
-                                    <h3>Curious George</h3>
-                                    <p>UI/UX Design</p>
+                                    <img src="asset/avatar-3.svg" alt="" width="25" height="25">
+                                    <div class="txt">
+                                        <h3>Curious George</h3>
+                                        <p>UI/UX Design</p>
+                                    </div>
                                 </div>
-
+                
                                 <div class="right">
                                     <form action="#" class="checkbox-container">
                                         <input type="checkbox" id="follow-checkbox" name="follow-checkbox">
@@ -250,40 +253,44 @@
                                     </form>
                                 </div>
                             </div>
-
+                
                             <div class="row-two">
                                 <div class="left">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="26" viewBox="0 0 17 16" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 17 16" fill="none">
                                         <path d="M14.5446 6.83575L13.9187 9.5054C13.3822 11.811 12.322 12.7435 10.3293 12.5519C10.01 12.5263 9.66511 12.4688 9.29468 12.3794L8.22171 12.124C5.55845 11.4917 4.73456 10.176 5.36046 7.50635L5.98636 4.83032C6.11409 4.28745 6.26738 3.81483 6.45898 3.42524C7.20622 1.87966 8.47718 1.46452 10.6103 1.96907L11.6769 2.21815C14.353 2.84405 15.1705 4.1661 14.5446 6.83575Z" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M10.3293 12.5519C9.93334 12.8202 9.43517 13.0437 8.82843 13.2417L7.81933 13.5738C5.28381 14.3913 3.94898 13.7079 3.12509 11.1724L2.30759 8.64963C1.49009 6.1141 2.16709 4.77289 4.70261 3.95539L5.71172 3.62328C5.97357 3.54025 6.22265 3.47 6.45896 3.42529C6.26736 3.81488 6.11408 4.2875 5.98634 4.83037L5.36045 7.50641C4.73455 10.1761 5.55843 11.4917 8.2217 12.124L9.29466 12.3795C9.66509 12.4689 10.01 12.5264 10.3293 12.5519Z" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M8.78375 5.61572L11.8813 6.40129" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
                                         <path d="M8.15784 8.0874L10.01 8.56002" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
-                                      </svg>
-                                      <p>40 Task</p>
+                                    </svg>
+                                    <p>40 Task</p>
                                 </div>
-
+                
                                 <div class="right">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 13 12" fill="none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 13 12" fill="none">
                                         <path d="M5.51759 1.03739C5.70877 0.448978 6.54123 0.448978 6.73241 1.03739L7.7023 4.02239C7.7878 4.28554 8.03302 4.46371 8.30971 4.46371L11.4483 4.46371C12.067 4.46371 12.3243 5.25541 11.8237 5.61907L9.28454 7.46391C9.06069 7.62654 8.96702 7.91482 9.05252 8.17796L10.0224 11.163C10.2136 11.7514 9.54013 12.2407 9.03959 11.877L6.5004 10.0322C6.27656 9.86955 5.97344 9.86955 5.7496 10.0322L3.2104 11.877C2.70987 12.2407 2.0364 11.7514 2.22759 11.163L3.19748 8.17796C3.28298 7.91482 3.18931 7.62654 2.96546 7.46391L0.426271 5.61907C-0.0742649 5.25541 0.182976 4.46371 0.801673 4.46371L3.94029 4.46371C4.21698 4.46371 4.4622 4.28554 4.5477 4.02239L5.51759 1.03739Z" fill="#FFBA79"/>
-                                      </svg>
-                                      <p>4.7</p>
-                                      <p>(750 Reviews)</p>
+                                    </svg>
+                                    <p>4.7</p>
+                                    <p>(750 Reviews)</p>
                                 </div>
                             </div>
                         </div>
+ 
                     </div>
                 </div>
 
-                <div class="right">
-                    <h1>Move faster with your Team tools</h1>
-                    <p>With your other work apps connected to Team, you can work faster by switching tabs less. And with powerful tools like Workflow Builder, you can automate away routine tasks.</p>
+                <div class="right-wrapper">
+                    <h1>Chats for your distributed teams</h1>
+                    <p>Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations while ignoring irrelevant ones.</p>
                     <a href="#" class="learn-more">Learn More <span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
                         <path d="M20.1484 13.7549H6.38594C5.69844 13.7549 5.13594 14.3174 5.13594 15.0049C5.13594 15.6924 5.69844 16.2549 6.38594 16.2549H20.1484V18.4924C20.1484 19.0549 20.8234 19.3299 21.2109 18.9299L24.6859 15.4424C24.9234 15.1924 24.9234 14.8049 24.6859 14.5549L21.2109 11.0674C20.8234 10.6674 20.1484 10.9549 20.1484 11.5049V13.7549V13.7549Z" fill="#5468E7"/>
                       </svg></span></a>
                 </div>
+
+                
+
             </div>
-            
-        </section>
+
+        </section> 
         <!--Service four section ends here-->
 
         <!--Reviews section starts here-->
@@ -464,5 +471,121 @@
             </div>
         </section>
     </footer>
+
+<section class="calender">
+    <div class="cal-container">
+        <div class="top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M17.0019 2.98499C16.5119 2.49499 15.7219 2.49499 15.2319 2.98499L6.92189 11.295C6.53189 11.685 6.53189 12.315 6.92189 12.705L15.2319 21.015C15.7219 21.505 16.5119 21.505 17.0019 21.015C17.4919 20.525 17.4919 19.735 17.0019 19.245L9.76189 11.995L17.0119 4.74499C17.4919 4.26499 17.4919 3.46499 17.0019 2.98499Z" fill="#6D7D8B"/>
+              </svg>
+              <p>July 2022</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M6.99815 21.015C7.48815 21.505 8.27815 21.505 8.76815 21.015L17.0782 12.705C17.4682 12.315 17.4682 11.685 17.0782 11.295L8.76815 2.98499C8.27815 2.49499 7.48815 2.49499 6.99815 2.98499C6.50815 3.47499 6.50815 4.26499 6.99815 4.75499L14.2382 12.005L6.98815 19.255C6.50815 19.735 6.50815 20.535 6.99815 21.015Z" fill="#6D7D8B"/>
+              </svg>
+        </div>
+        <div class="calender-grid">
+           <div class="weekday">S</div>
+           <div class="weekday">M</div>
+           <div class="weekday">T</div>
+           <div class="weekday">W</div>
+           <div class="weekday blk-color">T</div>
+           <div class="weekday">F</div>
+           <div class="weekday">S</div>
+
+           <div class="date">10</div>
+           <div class="date">11</div>
+           <div class="date">12</div>
+           <div class="date">13</div>
+           <div class="date blk-color">14</div>
+           <div class="date">15</div>
+           <div class="date">16</div>
+        </div>
+    </div>
+</section>
+
+<section class="card-mockup">
+    <div class="inner-right">
+        <div class="top-card">
+            <div class="row-one">
+                <div class="left">
+                    <img src="asset/avatar-1.svg" alt="" width="25" height="25">
+                    <div class="txt">
+                        <h3>Brian Robinson</h3>
+                        <p>Android Developer</p>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <form action="#" class="checkbox-container">
+                        <input type="checkbox" id="follow-checkbox" name="follow-checkbox">
+                        <label for="follow-checkbox" class="follow-text">Follow</label>
+                        <label for="follow-checkbox" class="follow-text-off">Followed</label>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row-two">
+                <div class="left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 17 16" fill="none">
+                        <path d="M14.5446 6.83575L13.9187 9.5054C13.3822 11.811 12.322 12.7435 10.3293 12.5519C10.01 12.5263 9.66511 12.4688 9.29468 12.3794L8.22171 12.124C5.55845 11.4917 4.73456 10.176 5.36046 7.50635L5.98636 4.83032C6.11409 4.28745 6.26738 3.81483 6.45898 3.42524C7.20622 1.87966 8.47718 1.46452 10.6103 1.96907L11.6769 2.21815C14.353 2.84405 15.1705 4.1661 14.5446 6.83575Z" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.3293 12.5519C9.93334 12.8202 9.43517 13.0437 8.82843 13.2417L7.81933 13.5738C5.28381 14.3913 3.94898 13.7079 3.12509 11.1724L2.30759 8.64963C1.49009 6.1141 2.16709 4.77289 4.70261 3.95539L5.71172 3.62328C5.97357 3.54025 6.22265 3.47 6.45896 3.42529C6.26736 3.81488 6.11408 4.2875 5.98634 4.83037L5.36045 7.50641C4.73455 10.1761 5.55843 11.4917 8.2217 12.124L9.29466 12.3795C9.66509 12.4689 10.01 12.5264 10.3293 12.5519Z" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.78375 5.61572L11.8813 6.40129" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8.15784 8.0874L10.01 8.56002" stroke="#54577A" stroke-width="0.958008" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <p>28 Task</p>
+                </div>
+
+                <div class="right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 13 12" fill="none">
+                        <path d="M5.51759 1.03739C5.70877 0.448978 6.54123 0.448978 6.73241 1.03739L7.7023 4.02239C7.7878 4.28554 8.03302 4.46371 8.30971 4.46371L11.4483 4.46371C12.067 4.46371 12.3243 5.25541 11.8237 5.61907L9.28454 7.46391C9.06069 7.62654 8.96702 7.91482 9.05252 8.17796L10.0224 11.163C10.2136 11.7514 9.54013 12.2407 9.03959 11.877L6.5004 10.0322C6.27656 9.86955 5.97344 9.86955 5.7496 10.0322L3.2104 11.877C2.70987 12.2407 2.0364 11.7514 2.22759 11.163L3.19748 8.17796C3.28298 7.91482 3.18931 7.62654 2.96546 7.46391L0.426271 5.61907C-0.0742649 5.25541 0.182976 4.46371 0.801673 4.46371L3.94029 4.46371C4.21698 4.46371 4.4622 4.28554 4.5477 4.02239L5.51759 1.03739Z" fill="#FFBA79"/>
+                    </svg>
+                    <p>4.8</p>
+                    <p>(370 Reviews)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-card">
+            <img src="asset/card-mockup-2.png" alt="">
+            <h3>Creating Perfect Website</h3>
+            <p style="opacity: 0.7;">Web Developer</p>
+            <div class="progress-num-wrapper">
+                <p>Progress</p>
+                <p>85%</p>
+            </div>
+            <div class="progress-wrapper">
+                <div class="progress-bar">
+                    <div class="progress-circle"></div>
+                </div>
+            </div>
+
+            <div class="time-avater-wrapper">
+                <div class="left">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 2C6.47 2 2 6.48 2 12C2 17.52 6.47 22 11.99 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 11.99 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11.72 7H11.78C12.18 7 12.5 7.32 12.5 7.72V12.26L16.37 14.56C16.72 14.76 16.83 15.21 16.62 15.55C16.42 15.89 15.98 15.99 15.64 15.79L11.49 13.3C11.18 13.12 11 12.79 11 12.44V7.72C11 7.32 11.32 7 11.72 7Z" fill="#6D7D8B"/>
+                    </svg>
+                    <p>4 Days Left</p>
+                </div>
+
+                <div class="right">
+                    <img src="asset/avatar-1.svg" alt="">
+                    <img src="asset/avatar-2.svg" alt="">
+                    <img src="asset/avatar-3.svg" alt="">
+                    <img src="asset/avatar-4.svg" alt="">
+                    <img src="asset/avatar-5.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+      
+      
+      
+      
+
+    
 </body>
 </html>
