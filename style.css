@@ -665,7 +665,7 @@ header .hero .input-container .btn-hero {
   height: fit-content;
   margin-top: 3rem;
   padding: 1rem;
-  animation: 6s infinite backwards bounce;
+  animation: 3s infinite backwards bounce;
   display: flex;
   box-shadow: 0 16px 24px #7676b23d;
 }
