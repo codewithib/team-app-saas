@@ -979,14 +979,14 @@ header .hero .input-container .btn-hero {
 
 @media (width <= 480px) {
   .container {
-    width: 95%;
+    width: 90%;
     max-width: 480px;
     margin: 0 auto;
     padding: 0;
   }
 
   header .nav-head {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   header .logo .t {
