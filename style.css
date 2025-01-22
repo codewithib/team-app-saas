@@ -979,7 +979,7 @@ header .hero .input-container .btn-hero {
 
 @media (width <= 480px) {
   .container {
-    width: 90%;
+    width: 95%;
     max-width: 480px;
     margin: 0 auto;
     padding: 0;
