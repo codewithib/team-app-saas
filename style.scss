@@ -1136,6 +1136,10 @@ header {
             display: flex;
         }
 
+        .hero {
+            padding-top: 13rem;
+        }
+
         .hero .input-container .btn-hero {
             background-color: var(--soft-blue);
             padding: 0.9rem 0.5rem;
@@ -1182,16 +1186,7 @@ header {
             font-size: 1.125rem;
             font-weight: 400;
             margin-top: 2rem;
-            max-width: 20rem;
-        }
-
-        .hero .input-container {
-            max-width: 100%;
-
-        }
-
-        .hero .input-container .email-input {
-            max-width: 100%;
+            width: 100%;
         }
     }
 
@@ -1220,6 +1215,9 @@ header {
 
         .review-contents {
 
+            .row-card-wrapper {
+                justify-content: center;
+            }
             .row-card-wrapper .card-container {
                 flex: 1 1 calc(100% - 1rem);
             }
